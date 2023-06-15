@@ -1,5 +1,6 @@
 %% ex: ts=4 sw=4 et
-{application,
+{
+    application,
     fling,
     [
         {description, "Library that abuses module constant pool"},
