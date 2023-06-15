@@ -1,19 +1,19 @@
 %% ex: ts=4 sw=4 et
-{application, fling,
- [
-  {description, "Library that abuses module constant pool"},
-  {vsn, "1.0"},
-  {modules, []},
-  {applications, [
-                  kernel,
-                  stdlib,
-                  lager
-                 ]},
-  {mod, {fling_app, []}},
-  {registered, []},
-
-
-  {contributors,["Mark Allen"]},
-  {licenses,["Apache"]},
-  {links,[{"Github","https://github.com/basho-labs/fling"}]}
- ]}.
+{application,
+    fling,
+    [
+        {description, "Library that abuses module constant pool"},
+        {vsn, "1.0.0"},
+        {modules, []},
+        {applications, [
+            kernel,
+            stdlib,
+            new_lager
+        ]},
+        {mod, {fling_app, []}},
+        {registered, []},
+        {contributors,["Mark Allen"]},
+        {licenses,["Apache"]},
+        {links,[{"Github","https://github.com/basho-labs/fling"}]}
+    ]
+}.
